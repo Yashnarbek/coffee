@@ -1,0 +1,144 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body{
+    margin: 0;
+    font-family: "Barlow", "Arial", sans-serif;
+}
+
+img {
+    display: block;
+    height: auto;
+}
+
+@font-face {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: 
+    url("../fonts/barlow-v12-latin-regular.woff2") format("woff2"), 
+    url("../fonts/barlow-v12-latin-regular.woff") format("woff"); 
+}
+
+@font-face {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: 
+    url("../fonts/barlow-v12-latin-700.woff2") format("woff2"), 
+    url("../fonts/barlow-v12-latin-700.woff") format("woff"); 
+}
+
+@font-face {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: 
+    url("../fonts/fraunces-v23-latin-900.woff2") format("woff2"), 
+    url("../fonts/fraunces-v23-latin-900.woff") format("woff"); 
+}
+
+
+/* header bigen  */
+.site-header {
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-header__wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.site-header__logo {
+    display: inline-block;
+    margin-right: auto;
+}
+
+.site-header__burger-mnu {
+    width: 16px;
+    height: 18px;
+    background-image: url("../images/burger.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+}
+.close-btn {
+    background-image: url("../images/close.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.site-header__nav {
+    position: absolute;
+    right: 0;
+    top: 130px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 575px;
+    margin: 0;
+    padding-left: 0;
+    background: linear-gradient(0deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+}
+.active {
+    display: flex;
+}
+.site-header__nav-item {
+    margin-bottom: 32px;
+}
+.site-header__nav-link {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;    
+}
+
+
+@media only screen and (min-width: 650px) {
+    .site-header__burger-mnu {
+        display: none;
+    }
+    .site-header__nav {
+        flex-direction: row;
+    }
+    .site-header__nav-item {
+        margin-bottom: 0;
+        margin-left: 32px;
+    }
+}
+/* header end  */
+
+/* MAIN BIGEN  */
+
+/* hero bigen */
+.hero {
+}
+.container {
+}
+.hero__wrapper {
+}
+.hero__heading {
+}
+.hero__title {
+}
+.hero__link {
+}
+/* hero end */
