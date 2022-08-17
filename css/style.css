@@ -1120,6 +1120,9 @@ img {
     .quarters__heading {
         text-align: start;
     }
+    .quarters-item__heading {
+        text-align: start;
+    }
 }
 @media only screen and (min-width: 992px) {
     .quarters__wrapper {
@@ -1127,6 +1130,9 @@ img {
     }
     .quarters__item {
         margin-left: 50px;
+    }
+    .quarters-item__heading {
+        text-align: start;
     }
 }
 /* quarters section end  */
